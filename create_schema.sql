@@ -6,10 +6,10 @@ GO
 create table demoDb.dbo.colors (
 id int NOT NULL PRIMARY KEY,
 color varchar(255) NOT NULL,
-sign varchar(255)
+signal varchar(255)
 );
 GO
 
-insert into demoDb.dbo.colors (id, color) values (1, 'red', 'stop');
-insert into demoDb.dbo.colors (id, color) values (2, 'yellow', 'warning');
-insert into demoDb.dbo.colors (id, color) values (3, 'green', 'go');
+insert into demoDb.dbo.colors (id, color, signal) values (1, 'red', 'stop');
+insert into demoDb.dbo.colors (id, color, signal) values (2, 'yellow', 'warning');
+insert into demoDb.dbo.colors (id, color, signal) values (3, 'green', 'go');
