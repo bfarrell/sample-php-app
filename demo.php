@@ -9,7 +9,6 @@ echo "<H1>Brendan's Crappy Demo App</H1>";
 echo '<table style="border:1px solid black;">'; 
 echo '<tr><th style="border:1px solid black;">ID</th>';
 echo '<th style="border:1px solid black;">Color</th>';
-echo '<th style="border:1px solid black;">Signal</th>';
 echo '</tr>'; 
 
 while($row = sqlsrv_fetch_array($results))
@@ -18,8 +17,6 @@ while($row = sqlsrv_fetch_array($results))
   echo $row['id']; 
   echo '</td><td style="border:1px solid black;">';  
   echo $row['color']; 
-  echo '</td><td style="border:1px solid black;">';  
-  echo $row['signal']; 
   echo "</td></tr>";
 }
 echo "</table>";    
