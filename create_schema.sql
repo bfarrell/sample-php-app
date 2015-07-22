@@ -5,11 +5,10 @@ create database demoDb;
 GO
 create table demoDb.dbo.colors (
 id int NOT NULL PRIMARY KEY,
-color varchar(255) NOT NULL,
-signal varchar(255)
+color varchar(255) NOT NULL
 );
 GO
 
-insert into demoDb.dbo.colors (id, color, signal) values (1, 'red', 'stop');
-insert into demoDb.dbo.colors (id, color, signal) values (2, 'yellow', 'warning');
-insert into demoDb.dbo.colors (id, color, signal) values (3, 'green', 'go');
+insert into demoDb.dbo.colors (id, color) values (1, 'red');
+insert into demoDb.dbo.colors (id, color) values (2, 'yellow');
+insert into demoDb.dbo.colors (id, color) values (3, 'green');
