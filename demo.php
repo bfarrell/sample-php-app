@@ -6,7 +6,7 @@ $serverName = "localhost"; //serverName\instanceName
 #$results = oracle_query( $conn, "SELECT * from colors" );
 
 echo "<H1>Brendan's Demo App</H1>";
-echo "<H1> Version 1";
+echo "<H1> Version 2";
 #echo '<table style="border:1px solid black;">'; 
 #echo '<tr><th style="border:1px solid black;">ID</th>';
 #echo '<th style="border:1px solid black;">Color</th>';
