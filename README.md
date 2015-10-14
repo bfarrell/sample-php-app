@@ -1,2 +1,2 @@
 # sample-php-app
-Sample App to Test Drive My CI/CD
+Very simple PHP Sample App to Test Drive My CI/CD
