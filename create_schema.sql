@@ -12,3 +12,4 @@ GO
 insert into demoDb.dbo.colors (id, color) values (1, 'red');
 insert into demoDb.dbo.colors (id, color) values (2, 'yellow');
 insert into demoDb.dbo.colors (id, color) values (3, 'green');
+insert into demoDb.dbo.colors (id, color) values (3, 'green');insert into demoDb.dbo.colors (id, color) values (5, 'green');
